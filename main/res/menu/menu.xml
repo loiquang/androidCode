@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:title="Quản lý">
+            <menu>
+                <item
+                    android:id="@+id/mQuanLySach"
+                    android:title="Quản lý sách"
+                    android:icon="@mipmap/sach"
+                    />
+                <item
+                    android:id="@+id/mQuanLyLoaiSach"
+                    android:title="Quản lý loại sách"
+                    android:icon="@mipmap/loai_sach"
+                    />
+                <item
+                    android:id="@+id/mQuanLyPhieuMuon"
+                    android:title="Quản phiếu mượn"
+                    android:icon="@mipmap/ticket"
+                    />
+                <item
+                    android:id="@+id/mQuanLyThanhVien"
+                    android:title="Quản lý thành viên"
+                    android:icon="@mipmap/persons"
+                    />
+            </menu>
+
+        </item>
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Thống kê">
+            <menu>
+                <item
+                    android:id="@+id/mTop10Sach"
+                    android:title="Top 10 sách"
+                    android:icon="@mipmap/top10"
+                    />
+
+                <item
+                    android:id="@+id/mDoanhThu"
+                    android:title="Doanh Thu"
+                    android:icon="@mipmap/doanh_thu"
+                    />
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Người dùng">
+            <menu>
+                <item
+                    android:id="@+id/mTaoTaiKhoan"
+                    android:title="Tạo tài khoản (chỉ admin)"
+                    android:icon="@mipmap/person"
+                    />
+
+                <item
+                    android:id="@+id/mDoiMatKhau"
+                    android:title="Đổi mật khẩu"
+                    android:icon="@mipmap/change_pass_word"
+                    />
+
+                <item
+                    android:id="@+id/mLogout"
+                    android:title="Logout"
+                    android:icon="@mipmap/logout"
+                    />
+            </menu>
+
+        </item>
+    </group>
+
+</menu>

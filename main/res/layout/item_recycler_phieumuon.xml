@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="12dp"
+    android:layout_margin="10dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvMaThuThu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Mã thủ thư" />
+
+        <TextView
+            android:id="@+id/tvTenThuThu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="10dp"
+            android:text="Tên thủ thư" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:text="Phiếu Mượn"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvMaPhieuMuonTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTitle"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toLeftOf="@id/tvMaPhieuMuon"
+            android:text="Mã phiếu mượn:"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tvMaPhieuMuon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTitle"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="ID" />
+
+        <TextView
+            android:id="@+id/tvMaThanhVienTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvMaPhieuMuon"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Mã thành viên:"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tvMaThanhVien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvMaPhieuMuon"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toRightOf="@id/tvMaThanhVienTitle"
+            android:text="ID" />
+
+        <TextView
+            android:id="@+id/tvThanhVienTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvMaPhieuMuon"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toRightOf="@id/tvMaThanhVien"
+            android:text="Tên thành viên:"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tvThanhVien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvMaPhieuMuon"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toRightOf="@id/tvThanhVienTitle"
+            android:text="..." />
+
+        <TextView
+            android:id="@+id/tvMaSachTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvMaThanhVien"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Mã sách:"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tvMaSach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvMaThanhVien"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toRightOf="@id/tvMaSachTitle"
+            android:text="ID" />
+
+        <TextView
+            android:id="@+id/tvSachTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvMaThanhVien"
+            android:layout_margin="10dp"
+            android:layout_toRightOf="@id/tvMaThanhVien"
+            android:text="Tên sách:"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/tvSach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvMaThanhVien"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toRightOf="@id/tvSachTitle"
+            android:text="..." />
+
+        <TextView
+            android:id="@+id/tvNgayTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvMaSach"
+            android:layout_margin="10dp"
+            android:text="Ngày mượn:"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/tvNgay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvMaSach"
+            android:layout_toRightOf="@id/tvNgayTitle"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="..." />
+
+        <TextView
+            android:id="@+id/tvTienThueTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvNgay"
+            android:layout_margin="10dp"
+            android:text="Tiền thuê:"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/tvTienThue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvNgay"
+            android:layout_toRightOf="@id/tvTienThueTitle"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="..." />
+
+        <TextView
+            android:id="@+id/tvTrangThaiTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvTienThueTitle"
+            android:layout_margin="10dp"
+            android:text="Trạng thái:"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/tvTrangThai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvTienThueTitle"
+            android:layout_toRightOf="@id/tvTrangThaiTitle"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="..." />
+
+        <Button
+            android:id="@+id/btnTraSach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTrangThaiTitle"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/black"
+            android:text="Trả sách"
+            />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
