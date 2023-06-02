@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="default_web_client_id">978619186148-j4vv9hpljdfcssrh9gi7v2ni5vbnfgke.apps.googleusercontent.com</string>
+
+
+    <string name="facebook_app_id">3495530874028176</string>
+    <string name="facebook_client_token">2c40bdad2056e41aa2cc2cd430ce9689</string>
+
+</resources>
